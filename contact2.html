@@ -4,12 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <title>rachel mahan, contact</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
     <link href="css/web_photography_contact.css" rel="stylesheet">
@@ -49,35 +50,37 @@
             </div>
         </div>
     </nav> 
-    <div class="contact_form_background">
-    	<p class="contact_about"> want to get in touch? drop me a line below. </p>   
-		<form action="//flipmail.co/api/XyxM4Okwx85l9JtVzJRV" method="post" class="contact_form_info">
-			<input type="text" name="_honey" value="" style="display:none">
-			<input type="hidden" name="_valid[field_name]" value="required">
-			<input type="hidden" name="_valid[field_email]" value="valid_email">
-			<input type="hidden" name="_valid[field_message]" value="min_length[10]">
-		    <div class="form-group row">
-		    	<label for="name" class="col-xs-2 col-form-label">name</label>
-		    	<div class="col-xs-10">
-		    		<input class="form-control contact_input_box" type="text" name="name"/>
-		    	</div>
-		   	</div>
-		    <div class="form-group row">
-		    	<label for="email" class="col-xs-2 col-form-label">email</label>
-		    	<div class="col-xs-10">
-		    		<input class="form-control contact_input_box" type="email" name="email"/>
-		    	</div>
-		   	</div>
-		   	<div class="form-group row">
-		   		<label for="message" class="col-xs-2 col-form-label">message</label>
-		    	<div class="col-xs-10">
-		    		<textarea class="form-control contact_input_box" name="message"></textarea>
-		    	</div>
-		    </div>
-		    <button class="btn btn-primary contact_send_button" type="submit" >Submit</button>
-		    <input type="hidden" name="_confirmation" value="<b>Thank you!</b> I have received your message and will get back to you shortly.">
-		</form>
+<!--_______ Contact form -->
+    <div class="row contact_form_background">
+		<div class="col-sm-6 col-sm-offset-3">
+        	<p class="contact_about"> want to get in touch? drop me a line below. </p>
+	    	<form role="form" id="contactForm" data-toggle="validator">
+	     		<div class="row">
+		            <div class="form-group col-sm-6">
+		                <label for="name" class="h4">Name</label>
+		                <input type="text" class="form-control" id="name" placeholder="Enter name" required data-error="please enter your name"/>
+		                <div class="help-block with-errors"></div>
+		            </div>
+		            <div class="form-group col-sm-6">
+		                <label for="email" class="h4">Email</label>
+		                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+		                <div class="help-block with-errors"></div>
+		            </div>
+        		</div>
+        		<div class="form-group">
+            		<label for="message" class="h4">Message</label>
+            		<textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
+            		<div class="help-block with-errors"></div>
+        		</div>
+        		<button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Submit</button>
+				<div id="msgSubmit" class="h3 text-center hidden"></div>
+	    	</form>	   
+		</div>
 	</div>
+	 <script src="js/jquery.js"></script>
+	 <script type="text/javascript" src="bower_components/bootstrap-validator/js/validator.js"></script>
+	 <script type="text/javascript" src="js/scripts.js"></script>
+	 
 </body>
 </html>
 
