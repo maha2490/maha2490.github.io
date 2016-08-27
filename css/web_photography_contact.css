@@ -187,16 +187,16 @@ a {
     font-weight: 100;
     }
     .btn.btn-primary.contact_send_button {
-    width: 14%;
-    padding: 1%;
-    margin-left: 27%;
-    font-size: 100%;
+    width: 32%;
+    padding: 2%;
+    margin-left: 23%;
+    font-size: 96%;
     border-radius: 7%;
     border-color: rgb(183,155,149);
     background-color: rgb(183,155,149);
     margin-top: 2%;
     font-weight: inherit;
-    width: 25%;
+    
     }
     .contact_form_background {
     padding-top: 50px;
