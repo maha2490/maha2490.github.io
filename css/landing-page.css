@@ -217,7 +217,7 @@ p.copyright {
 
 @media(max-width:767px) {
     .element{
-        font-size: 4.5em;
+        font-size: 4.6em;
         letter-spacing: 0px;
     }
     .intro-message {
@@ -233,6 +233,19 @@ p.copyright {
     }
     .intro-message > h3 {
         font-size: 1.5em;
+    }
+    .content-section-a {
+        padding: 7% 0;
+    }
+    .content-section-b {
+        padding: 7% 0;
+    }
+    .self {
+        width: 46%;
+        margin-left: 22%;
+    }
+    .purravida_thumbnail {
+        margin-left: 8%;
     }
     ul.intro-social-buttons > li {
         display: block;

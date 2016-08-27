@@ -109,15 +109,29 @@ a {
 }
 .photo_work_image_cycle{
 	padding-top: 50px;
-    margin-left: 6%;
+    margin-left: 9%;
     width: 82%;
 }
 .photo_work_image_cycle_color{
 	padding-top: 50px;
-    margin-left: 6%;
-    width: 105%;
+    width: 100%;
 }
-
+@media(max-width:767px) {
+    .cycle-overlay{
+        font-size: 1em;
+        margin-left: 10%;
+    .photo_work_image_cycle_color{
+        width: 85%;
+    }
+}
+@media(max-width:400px) {
+    .cycle-overlay{
+        font-size: 1em;
+        margin-left: 10%;
+    .photo_work_image_cycle_color{
+        width: 85%;
+    }
+}
 
 /* CONTACT ___________________________________________*/
 
