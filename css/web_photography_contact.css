@@ -180,7 +180,7 @@ a {
     margin-top: 2%;
     font-weight: inherit;
 }
-@media(max-width:767px) {
+@media screen and (max-width:767px) {
     .contact_about {
     font-family: 'Lobster', cursive;
     text-shadow: 3px 4px 5px rgba(183,155,149,1);
@@ -209,8 +209,7 @@ a {
     border-color: rgb(183,155,149);
     background-color: rgb(183,155,149);
     margin-top: 2%;
-    font-weight: inherit;
-    
+    font-weight: inherit;  
     }
     .contact_form_background {
     padding-top: 50px;
@@ -219,7 +218,10 @@ a {
     height: 1000px;
     }
 }
-@media(max-width:400px) {
+@media screen and (max-width:400px) {
+    .contact_form_background {
+        height: 650px;
+    }
     .contact_about {
     font-family: 'Lobster', cursive;
     text-shadow: 3px 4px 5px rgba(183,155,149,1);
