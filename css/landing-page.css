@@ -1,8 +1,4 @@
-/*
- * Start Bootstrap - Landing Page (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+
 @import 'https://fonts.googleapis.com/css?family=Lobster|Playfair+Display|Raleway';
 
 body,
@@ -197,23 +193,16 @@ a {
 }
 
 
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
+@media(max-width:1165px) {
+    .element{
+        font-size: 4.6em;
+        letter-spacing: 0px;
     }
 }
 
-footer {
-    /*padding: 5px 0;
-    background-color: #f8f8f8;
-    text-align: center;*/
-}
 
-p.copyright {
-    margin: 15px 0 0;
-    text-align: center;
-}
+
+
 
 @media screen and (max-width:767px) {
     .element{
