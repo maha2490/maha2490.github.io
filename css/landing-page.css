@@ -115,7 +115,7 @@ a {
     border-top: 3px solid #faf9fa;
 }
 
-.intro-message > h3 {
+.intro-message > h1 {
     /*text-shadow: 0.5px 0.5px 0.5px rgba(71,64,74,0.9);*/    
     text-shadow: 0.2px 0.2px 0.5px rgba(71,64,74,0.3);
     font-family: 'Arimo', sans-serif;
