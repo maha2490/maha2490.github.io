@@ -33,7 +33,9 @@ a {
 }
 .table-responsive {
     border: none;
+    margin-left: 4%;
 }
+
 td {
     margin: 8px;
     color: white;
@@ -49,14 +51,13 @@ td {
 }
 
 .hovereffect {
-  width: 100%;
+  width: 30%;
   height: 100%;
   float: left;
   overflow: hidden;
   position: relative;
   text-align: center;
   cursor: default;
-  background: black;
 }
 
 .hovereffect .overlay {
@@ -130,8 +131,9 @@ td {
 }
 .hovereffect p {
     font-size: 73%;
-    margin-left: 24%;
+    font-weight: 400;
     line-height: 141%;
+    margin-left: 24%;
     margin-top: -3%;
 }
 
@@ -157,6 +159,12 @@ td {
     	height: 100%;
         overflow: auto;
 	}
+    .table-responsive {
+        margin-left: -5%;
+    }
+    .hovereffect {
+        width: 100%;
+    }
 }
 @media(max-width:414px) {
     .web_work_boxes {
@@ -170,6 +178,12 @@ td {
 	    height: 100%;
         overflow: auto;
 	}
+    .table-responsive {
+        margin-left: -3%;
+    }
+    .hovereffect {
+        width: 100%;
+    }
 }
 
 /* PHOTO WORK ____________________________________________________________________*/
