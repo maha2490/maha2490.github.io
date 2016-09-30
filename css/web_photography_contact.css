@@ -100,9 +100,12 @@ td {
 }
 
 .hovereffect:hover img {
-    -webkit-filter: blur(10px) brightness(110%);
-    filter: blur(10px) brightness(110%);
-
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+.hovereffect:hover img.dark{
+    -webkit-filter: blur(10px) brightness(130%) opacity(90%);
+    filter: blur(10px) brightness(130%) opacity(90%);
 }
 
 .hovereffect h2 {
