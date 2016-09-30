@@ -157,6 +157,14 @@ td {
 
 /* WEB WORK MEDIA QUERIES__________________________________________________________*/
 @media(max-width:768px) {
+    .table-responsive>.table>tbody>tr>td, 
+    .table-responsive>.table>tbody>tr>th, 
+    .table-responsive>.table>tfoot>tr>td, 
+    .table-responsive>.table>tfoot>tr>th, 
+    .table-responsive>.table>thead>tr>td, 
+    .table-responsive>.table>thead>tr>th {
+        white-space: normal;
+    }
     .web_work_boxes {
         display: block;
         width: 90%;
@@ -180,7 +188,9 @@ td {
         margin-left: 7%;
     }
     .hovereffect p {
-        font-size: 1.3em;
+        font-size: 0.7em;
+        font-weight: 400;
+        text-shadow: 0.1px 0.1px 0.4px #ebebeb;
         padding-left: 7%;
     }
 }
