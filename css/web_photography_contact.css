@@ -54,6 +54,10 @@ td {
     padding:0;
 }
 
+.web_work_links {
+    display: inline-block;
+}
+
 .hovereffect {
   width: 30%;
   height: 100%;
@@ -168,6 +172,14 @@ td {
     .hovereffect {
         width: 100%;
     }
+    .hovereffect h2 {
+        font-size: 3.3em;
+        margin-left: 7%;
+    }
+    .hovereffect p {
+        font-size: 1.3em;
+        padding-left: 7%;
+    }
 }
 @media(max-width:414px) {
     .web_work_boxes {
@@ -187,9 +199,18 @@ td {
     .hovereffect {
         width: 100%;
     }
+    .hovereffect .overlay {
+        /*width: 77%;
+        height: 80%;*/
+        left: 7%;
+        /*top: 10%;*/
+    }
+    .hovereffect h2 {
+        font-size: 2em;
+        margin-top: 4%;
+        margin-left: 7%;
+    }
 }
-
-
 
 /* PHOTO WORK ____________________________________________________________________*/
 .cycle-overlay{
