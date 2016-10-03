@@ -103,9 +103,14 @@ td {
     -webkit-filter: blur(10px);
     filter: blur(10px);
 }
-.hovereffect:hover img.dark{
+.hovereffect:hover img.medium_filter {
     -webkit-filter: blur(10px) brightness(130%) opacity(90%);
     filter: blur(10px) brightness(130%) opacity(90%);
+}
+
+.hovereffect:hover img.dark_filter {
+    -webkit-filter: blur(10px) brightness(220%) opacity(60%);
+    filter: blur(10px) brightness(220%) opacity(60%);
 }
 
 .hovereffect h2 {
@@ -138,6 +143,7 @@ td {
     letter-spacing: 0.5px;
     text-align: left;
     color: #777;
+    /*text-shadow: 2px 2px #ff0000;*/
     padding-left: 12%;
     padding-right: 12%;
     opacity: 0;
