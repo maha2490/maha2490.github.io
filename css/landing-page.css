@@ -41,11 +41,11 @@ a {
     font-size: 245%;
 }
 .lead {
-    font-size: 18px;
+    font-size: 1.4em;
     text-transform: lowercase;
     color: #ad8d86;
-    letter-spacing: 0.5px;
-    font-weight: 300;
+    font-weight: lighter;
+    line-height: 134%;
 }
 
 .intro-header {
@@ -57,13 +57,16 @@ a {
                 url(../img/computer_screen.jpeg) no-repeat center center;               
     background-size: cover;
 }
-
+#plus{
+    color: rgb(71,64,74);
+}
 .intro-message {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
 }
 
+/*JQuery animation___________________________________*/
 .element{
     font-family: 'Lobster', cursive;
     margin: 0;
@@ -75,9 +78,6 @@ a {
     margin-bottom: 2%;
     margin-top: 4%;
 }
-
-/*JQuery animation___________________________________*/
-
 .fade_in_block {
     opacity:0;
 }
@@ -111,8 +111,8 @@ a {
     50% { opacity:0; }
     100% { opacity:1; }
 }
-/*___________________________________________________*/
 
+/*___________________________________________________*/
 .intro-divider {
     width: 34%;
     border-top: 3px solid #faf9fa;
@@ -129,22 +129,17 @@ a {
     margin-right: 1%;
 }
 
-#plus{
-    color: rgb(71,64,74);
-}
-
-/*.network-name {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}*/
-
 .content-section-a {
     padding: 100px 0;
     background-color: #f8f8f8;
 }
+
 .img-thumbnail {
+    width: 60%;
+    margin-left: 17%;
+    padding: 0;
+}
+.img-thumbnail.self {
     width: 65%;
     margin-left: 17%;
     padding: 0;
@@ -160,7 +155,7 @@ a {
 .section-heading {
     font-family: 'Lobster', cursive;
     /*text-shadow: 1px 1px 1px rgba(183,155,149,1);*/
-    font-size: 3em;
+    font-size: 3.5em;
     color: rgb(71,64,74);
     text-transform: lowercase;
     margin-bottom: 30px;
@@ -171,10 +166,18 @@ a {
     width: 200px;
     border-top: 3px solid #e7e7e7;
 }
-.purravida_thumbnail {
-    width: 84%;
-    margin-top: 4%;
+
+.purravida {
+    width: 100%;
+    margin-top: 9%;
+    margin-left: 0%;
 }
+
+.juice_glasses {
+    width: 89%;
+    margin-left: 13%;
+}
+
 .banner {
     padding: 20px 0;
     color: #f8f8f8;
@@ -182,7 +185,9 @@ a {
                 url(../img/blurry_background.jpg);
     background-size: cover;
 }
-
+.banner ul {
+    margin-bottom: 0;
+}
 .social_button {
     display: inline-block;
     margin-left: 35%;
@@ -191,11 +196,9 @@ a {
     color: #f8f8f8;
     font-size: 1.2em;
 }
-.banner ul {
-    margin-bottom: 0;
-}
 
 
+/*_MEDIA QUERIES_________________________________________________*/
 @media(max-width:1165px) {
     .element{
         font-size: 4.6em;
