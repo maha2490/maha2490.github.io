@@ -78,6 +78,9 @@ a {
 
 /*JQuery animation___________________________________*/
 
+.fade_in_block {
+    opacity:0;
+}
 .typed-cursor{
     font-family: 'Lobster', cursive;
     margin: 0;
