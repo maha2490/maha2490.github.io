@@ -199,26 +199,31 @@ a {
 
 
 /*_MEDIA QUERIES_________________________________________________*/
-@media(max-width:1165px) {
+@media screen and (max-width:1281px){
+    .element{
+        font-size: 5.5em;
+    }
+}
+
+@media(max-width:1025px) {
     .element{
         font-size: 4.6em;
         letter-spacing: 0px;
     }
 }
 
-
-
-
-
-@media screen and (max-width:767px) {
+@media screen and (max-width:961px) {
     .element{
-        font-size: 4.6em;
+        font-size: 4.7em;
         letter-spacing: 0px;
     }
+    .typed-cursor {
+        font-size: 4em;
+    }
     .intro-message {
-        font-size: 62%;
+        font-size: 83%;
+        padding-top: 24%;
         padding-left: 1%;
-        margin: 3%;
     }
     .intro-divider {
         width: 33%;
@@ -226,8 +231,13 @@ a {
         margin-left: 32%;
         margin-top: 1%;
     }
-    .intro-message > h3 {
-        font-size: 1.5em;
+    .intro-message > h1 {
+        font-size: 169%;
+    }
+    .section-heading {
+        font-size: 2.5em;
+        margin-top: 1%;
+        margin-bottom: 4%;
     }
     .content-section-a {
         padding: 7% 0;
@@ -235,12 +245,21 @@ a {
     .content-section-b {
         padding: 7% 0;
     }
-    .self {
-        width: 46%;
-        margin-left: 22%;
+    .img_thumbnail {
+        margin-top: 2%;
+        margin-bottom: 8%;
     }
-    .purravida_thumbnail {
-        margin-left: 8%;
+    .img-thumbnail.self {
+        width: 65%;
+        margin-top: 7%;
+        margin-left: 17%;
+    }
+    .purravida {
+        margin-top: 17%;
+        margin-left: 6%;
+    }
+    .juice_glasses {
+        margin-left: 6%;
     }
     ul.intro-social-buttons > li {
         display: block;
@@ -249,7 +268,43 @@ a {
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:768px) {
+    .purravida {
+        margin-left: 0;
+    }
+    .img-thumbnail.self {
+        margin-top: 14%;
+    }
+}
+
+@media screen and (max-width:676px) {
+    .element {
+        font-size: 4.3em;
+    }
+    .intro-message {
+        font-size: 73%;
+    }
+}
+@media screen and (max-width:481px) {
+    .intro-message {
+        font-size: 57%;
+    }
+    .img-thumbnail {
+        margin-bottom: 7%;
+    }
+    .img-thumbnail.self {
+        margin-top: 0;
+    }
+    .purravida {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .juicee_glasses {
+        margin-top: 17%;
+    }
+}
+
+@media screen and (max-width:320px) {
     .intro-header {
         padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
         padding-bottom: 50px;
@@ -296,9 +351,10 @@ a {
     .img-thumbnail {
         margin-bottom: 7%;
     }
-    .self {
-        width: 46%;
-        margin-left: 22%;
+    .img-thumbnail.self {
+        width: 70%;
+        margin-left: 14%;
+        padding: 0;
     }
     .purravida {
         margin-top: 2%;
