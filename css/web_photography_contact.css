@@ -109,8 +109,8 @@ td {
 }
 
 .hovereffect:hover img.dark_filter {
-    -webkit-filter: blur(10px) brightness(220%) opacity(60%);
-    filter: blur(10px) brightness(220%) opacity(60%);
+    -webkit-filter: blur(10px) brightness(250%) opacity(60%);
+    filter: blur(10px) brightness(250%) opacity(60%);
 }
 
 .hovereffect h2 {
@@ -121,7 +121,7 @@ td {
     letter-spacing: 1px;
     text-align: left;
     position: relative;
-    font-size: 2.3em;
+    font-size: 2.7vw;
     background-color: transparent;
     margin-top: 7%;
     margin-bottom: 5%;
@@ -137,7 +137,7 @@ td {
 .hovereffect p {
     font-family: 'Arimo', sans-serif;
     text-transform: lowercase;
-    font-size: 73%;
+    font-size: 0.7vw;
     font-weight: 300;
     line-height: 141%;
     letter-spacing: 0.5px;
@@ -194,7 +194,7 @@ td {
         margin-left: 7%;
     }
     .hovereffect p {
-        font-size: 0.7em;
+        font-size: 2vw;
         font-weight: 400;
         text-shadow: 0.1px 0.1px 0.4px #ebebeb;
         padding-left: 7%;
@@ -229,8 +229,8 @@ td {
         margin-top: 4%;
         margin-left: 7%;
     }
-    .hovereffect.web_work_about {
-
+    .hovereffect p {
+        font-size: 0.5em;
     }
 }
 
