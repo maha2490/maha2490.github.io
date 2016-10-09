@@ -185,6 +185,8 @@ td {
 	}
     .table-responsive {
         margin-left: -5%;
+        height: 100%;
+        overflow: scroll;
     }
     .hovereffect {
         width: 100%;
@@ -214,6 +216,8 @@ td {
 	}
     .table-responsive {
         margin-left: -3%;
+        height: 100%;
+        overflow: scroll;
     }
     .hovereffect {
         width: 100%;
