@@ -192,6 +192,9 @@ a {
     display: inline-block;
     margin-left: 35%;
 }
+.social_button a:hover {
+    color: #777;
+}
 .social_icon_style {
     color: #f8f8f8;
     font-size: 1.2em;
