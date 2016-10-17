@@ -328,6 +328,10 @@ td {
 }
 
 /* CONTACT MEDIA QUERIES________________________________________________________*/
+.form-control:focus  {
+     border-color: #b9c2c8;
+}
+
 @media screen and (max-width:767px) {
     .contact_about {
     font-family: 'Lobster', cursive;

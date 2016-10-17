@@ -53,7 +53,7 @@
     <div class="container-fluid contact_form_background">
     	<p class="contact_about"> want to get in touch? drop me a line below. </p>   
         <form method="post" action="https://formspree.io/rachelm2490@gmail.com" class="contact_form_info">
-            <input type="hidden" name="_next" value="https://maha2490.github.io/" />
+            <input type="hidden" name="_next" value="thanks.html" />
             <input type="text" name="_gotcha" style="display:none" />
             <div class="form-group row">
                 <label for="name" class="col-xs-2 col-form-label">name</label>
@@ -73,8 +73,25 @@
                     <textarea cols="40" rows="8" class="form-control contact_input_box" name="message"></textarea>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary contact_send_button">send message</button>            
+            <button type="submit" class="btn btn-primary contact_send_button" data-toggle="modal" data-target="#contact_send_modal">send message</button>            
         </form>
+        <div id="contact_send_modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+            <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Message sent</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Thanks for getting in touch. A respose will be headed your way soon.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal"></button>
+                  </div>
+                </div>
+            </div>
+        </div>
 	</div>
     <div class="banner">
         <div class="container">
