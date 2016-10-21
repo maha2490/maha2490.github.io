@@ -331,7 +331,14 @@ td {
 .form-control:focus  {
      border-color: #b9c2c8;
 }
-
+.form-control.contact_input_box {
+    font-family: 'Arimo', sans-serif;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  outline-color: #b9c2c8;
+}
 @media screen and (max-width:767px) {
     .contact_about {
     font-family: 'Lobster', cursive;
