@@ -49,12 +49,12 @@ a {
 }
 
 .intro-header {
-    padding-top: 50px; /* 50px of padding needed to clea rnavbar content */
+    padding-top: 50px; /* 50px of padding needed to clear navbar content */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
     background: linear-gradient(rgba(0, 47, 75, 0.3), rgba(220, 66, 37, 0.3)),
-                url(../img/computer_screen_opt.png) no-repeat center center;               
+                url(../img/computer_screen_opt2.png) no-repeat center center;               
     background-size: cover;
 }
 #plus{
