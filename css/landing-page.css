@@ -179,7 +179,7 @@ a {
 }
 
 .banner {
-    padding: 20px 0;
+    padding: 1.5vw 0 0.5vw 0;
     color: #f8f8f8;
     background: linear-gradient(rgba(0, 47, 75, 0.4), rgba(220, 66, 37, 0.2)), 
                 url(../img/blurry_background.jpg);
@@ -199,7 +199,12 @@ a {
     color: #f8f8f8;
     font-size: 1.2em;
 }
-
+.copyright.text-muted.small {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.12vw;
+    margin-top: 2%;
+}
 
 /*_MEDIA QUERIES_________________________________________________*/
 @media screen and (max-width:1281px){
@@ -270,6 +275,9 @@ a {
         margin-bottom: 20px;
         padding: 0;
     }
+    .banner {
+        padding: 2vw 0 0.5vw 0;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -278,6 +286,12 @@ a {
     }
     .img-thumbnail.self {
         margin-top: 14%;
+    }
+    .banner {
+        padding: 2.5vw 0 0.5vw 0;
+    }
+    .copyright.text-muted.small {
+        margin-top: 3%;
     }
 }
 
@@ -305,6 +319,12 @@ a {
     }
     .juicee_glasses {
         margin-top: 17%;
+    }
+    .banner {
+        padding: 3.5vw 0 1.5vw 0;
+    }
+    .copyright.text-muted.small {
+        margin-top: 4%;
     }
 }
 
@@ -372,6 +392,13 @@ a {
     }
     .social_button {
         font-size: 0.7em;
+    }
+    .banner {
+        padding: 5.5vw 0 1.5vw 0;
+    }
+    .copyright.text-muted.small {
+        font-size: 3vw;
+        margin-top: 6%;
     }
 }
 
