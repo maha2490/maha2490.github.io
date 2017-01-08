@@ -208,7 +208,7 @@ a {
     }
 }
 
-@media(max-width:1025px) {
+@media (max-width:1025px) {
     .element{
         font-size: 4.6em;
         letter-spacing: 0px;
